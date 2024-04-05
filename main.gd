@@ -130,3 +130,8 @@ func _on_button_pressed():
 	
 	$Line2D.width = 1*coef
 	$Line2D2.width = 1*coef
+
+	#ラベル
+	var rightVertex = $Line2D.get_point_position(1).x * 3/coef
+	$Label_L2.position.x = rightVertex/2 + $Line2D.position.x
+	$Label_P2.position.x = rightVertex + $Line2D.position.x
