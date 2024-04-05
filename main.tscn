@@ -5,11 +5,7 @@
 
 [node name="main" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+anchors_preset = 0
 script = ExtResource("1_droc7")
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -19,7 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.223529, 0.223529, 0.223529, 1)
+color = Color(0.223529, 0.223529, 0.223529, 0.129412)
 
 [node name="TextEdit" type="TextEdit" parent="."]
 layout_mode = 0
